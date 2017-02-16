@@ -21,6 +21,7 @@ def calculateSparsity(referenceImage):
     return sparseCount*1.0/(m*n)
     
 if __name__=="__main__":
-    reference = 'createImage/doubleOut/out15.png'
+    #reference = 'createImage/doubleOut/out15.png'
+    reference = 'createImage/2xTTSparsity/2xTT10.png'
     returned = calculateSparsity(reference)
     print("sparsity: ", returned)
